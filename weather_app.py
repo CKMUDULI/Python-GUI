@@ -10,7 +10,7 @@ class NewsApp:
     def __init__(self):
 
         # fetch data
-        self.data = requests.get('https://newsapi.org/v2/top-headlines?country=in&apiKey=07ce6431517e45c5b04b589c36e5bed6').json()
+        self.data = requests.get('https://newsapi.org/v2/top-headlines?country=in&apiKey=<YOUR API KEY>').json()
         # initial GUI load
         self.load_gui()
         # load the 1st news item
